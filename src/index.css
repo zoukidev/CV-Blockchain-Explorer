@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-100 text-gray-700 p-10;
+  }
+
+  h1 {
+    @apply text-4xl font-bold mb-4;
+  }
+
+  pre {
+    @apply px-4 py-2 bg-gray-800 text-white rounded;
+  }
+}
